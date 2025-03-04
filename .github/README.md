@@ -6,12 +6,12 @@
 
 
 <p align="center">
-  <img src="https://te.legra.ph/file/a97b0a381fa37a82b4213.jpg">
+  <img src="https://i.ibb.co/9kHmjz52/IMG-20250304-202153-212.jpg">
 </p>
 
 <p align="center">
-<a href="https://github.com/WCGKING/stargazers"><img src="https://img.shields.io/github/stars/WCGKING/SYSTUM?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
-<a href="https://github.com/WCGKING/SYSTUM/network/members"> <img src="https://img.shields.io/github/forks/WCGKING/SYSTUM?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
+<a href="https://github.com/ASIFXQUEEN/stargazers"><img src="https://img.shields.io/github/stars/ASIFXQUEEN/asifxmusicsmoth2.0?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
+<a href="https://github.com/ASIFXQUEEN/asifxmusicsmoth2.0/network/members"> <img src="https://img.shields.io/github/forks/WCGKING/SYSTUM?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
 <a href="https://github.com/WCGKING/SYSTUM/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-orange?style=for-the-badge&logo=python" alt="Python" /> </a>
 <a href="https://github.com/WCGKING/SYSTUM/commits/WCGKING"> <img src="https://img.shields.io/github/last-commit/WCGKING/SYSTUM?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
@@ -25,7 +25,7 @@
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
 </h3>
 
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/WCGKING/SYSTUM"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/ASIFXQUEEN/asifxmusicsmoth2.0"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʟᴏᴄᴀʟ ʜᴏsᴛ/ ᴠᴘs 」─
