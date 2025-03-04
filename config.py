@@ -14,13 +14,13 @@ API_HASH = getenv("API_HASH",)
 BOT_TOKEN = getenv("BOT_TOKEN",)
 
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "Systumm_music_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "naxqueen_bot")
 
 # Get Your repo
-REPO_LINK = getenv("REPO_LINK" , "https://t.me/BRANDED_PAID_CC")
+REPO_LINK = getenv("REPO_LINK" , "https://t.me/ARAME9")
 
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME" , "Sytumm")
+BOT_NAME = getenv("BOT_NAME" , "ASIFXQUEEN")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI",)
@@ -31,7 +31,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 LOGGER_ID = int(getenv("LOGGER_ID",))
 
 # Get this value from @CrewMusic_bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6258877205))
+OWNER_ID = int(getenv("OWNER_ID", 5099049612))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -41,15 +41,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/WCGKING/SYSTUM",
+    "https://github.com/ASIFXQUEEN/asifxmusicsmoth2.0",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BRANDRD_BOT")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BRANDED_WORLD")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ARAME9")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+9ZbsLxloOwBiMGZl")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -87,21 +87,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/tsfco0.jpg"
+    "START_IMG_URL", "https://i.ibb.co/9kHmjz52/IMG-20250304-202153-212.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/tsfco0.jpg"
+    "PING_IMG_URL", "https://i.ibb.co/9kHmjz52/IMG-20250304-202153-212.jpg"
 )
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/2e2f78610814092d61103.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/ce5ffb3d5f383c781f234.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
+PLAYLIST_IMG_URL = "https://i.ibb.co/9kHmjz52/IMG-20250304-202153-212.jpg"
+STATS_IMG_URL = "https://i.ibb.co/9kHmjz52/IMG-20250304-202153-212.jpg"
+TELEGRAM_AUDIO_URL = "https://i.ibb.co/9kHmjz52/IMG-20250304-202153-212.jpg"
+TELEGRAM_VIDEO_URL = "https://i.ibb.co/9kHmjz52/IMG-20250304-202153-212.jpg"
+STREAM_IMG_URL = "https://i.ibb.co/9kHmjz52/IMG-20250304-202153-212.jpg"
+SOUNCLOUD_IMG_URL = "https://i.ibb.co/9kHmjz52/IMG-20250304-202153-212.jpg"
+YOUTUBE_IMG_URL = "https://i.ibb.co/9kHmjz52/IMG-20250304-202153-212.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://i.ibb.co/9kHmjz52/IMG-20250304-202153-212.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://i.ibb.co/9kHmjz52/IMG-20250304-202153-212.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://i.ibb.co/9kHmjz52/IMG-20250304-202153-212.jpg"
 
 
 def time_to_seconds(time):
