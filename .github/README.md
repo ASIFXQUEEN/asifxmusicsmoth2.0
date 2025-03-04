@@ -18,7 +18,7 @@
 </p>
 
    <p align="center">
-     <img src="https://graph.org/file/6dbf205e018a9e7db2bad.jpg">
+     <img src="https://i.ibb.co/9kHmjz52/IMG-20250304-202153-212.jpg">
      </p>
 
 <h3 align="center">
