@@ -1,7 +1,6 @@
 import os 
 import random
 from datetime import datetime 
-import upload_file
 from PIL import Image , ImageDraw
 from pyrogram import *
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
