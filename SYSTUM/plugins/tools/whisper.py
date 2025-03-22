@@ -1,4 +1,4 @@
-from SHUKLAMUSIC import app as app
+from SYSTUM import app as app
 from config import BOT_USERNAME
 from pyrogram import filters
 from pyrogram.types import (
@@ -8,7 +8,7 @@ from pyrogram.types import (
 
 whisper_db = {}
 
-switch_btn = InlineKeyboardMarkup([[InlineKeyboardButton("💒 Start Whisper", switch_inline_query_current_chat="")]])
+switch_btn = InlineKeyboardMarkup([[InlineKeyboardButton("💒 Start A Love latter", switch_inline_query_current_chat="")]])
 
 async def _whisper(_, inline_query):
     data = inline_query.query
@@ -17,7 +17,7 @@ async def _whisper(_, inline_query):
     if len(data.split()) < 2:
         mm = [
             InlineQueryResultArticle(
-                title="💒 Whisper",
+                title="💒 love latter",
                 description=f"@{BOT_USERNAME} [ USERNAME | ID ] [ TEXT ]",
                 input_message_content=InputTextMessageContent(f"💒 Usage:\n\n@{BOT_USERNAME} [ USERNAME | ID ] [ TEXT ]"),
                 thumb_url="https://te.legra.ph/file/3eec679156a393c6a1053.jpg",
@@ -36,7 +36,7 @@ async def _whisper(_, inline_query):
         except:
             mm = [
                 InlineQueryResultArticle(
-                    title="💒 Whisper",
+                    title="💒 Love latter",
                     description="Invalid username or ID!",
                     input_message_content=InputTextMessageContent("Invalid username or ID!"),
                     thumb_url="https://te.legra.ph/file/3eec679156a393c6a1053.jpg",
@@ -49,14 +49,14 @@ async def _whisper(_, inline_query):
             one_time_whisper_btn = InlineKeyboardMarkup([[InlineKeyboardButton("🔩 One-Time Whisper", callback_data=f"fdaywhisper_{inline_query.from_user.id}_{user.id}_one")]])
             mm = [
                 InlineQueryResultArticle(
-                    title="💒 Whisper",
-                    description=f"Send a Whisper to {user.first_name}!",
-                    input_message_content=InputTextMessageContent(f"💒 You are sending a whisper to {user.first_name}.\n\nType your message/sentence."),
+                    title="💒 love latter",
+                    description=f"Send a Love latter to {user.first_name}!",
+                    input_message_content=InputTextMessageContent(f"💒 You are sending a love letter to {user.first_name}.\n\nType your message/sentence."),
                     thumb_url="https://te.legra.ph/file/3eec679156a393c6a1053.jpg",
                     reply_markup=whisper_btn
                 ),
                 InlineQueryResultArticle(
-                    title="🔩 One-Time Whisper",
+                    title="🔩 One-Time love latter",
                     description=f"Send a one-time whisper to {user.first_name}!",
                     input_message_content=InputTextMessageContent(f"🔩 You are sending a one-time whisper to {user.first_name}.\n\nType your message/sentence."),
                     thumb_url="https://te.legra.ph/file/3eec679156a393c6a1053.jpg",
@@ -82,9 +82,9 @@ async def whispes_cb(_, query):
     to_user = int(data[2])
     user_id = query.from_user.id
     
-    if user_id not in [from_user, to_user, 6691393517]:
+    if user_id not in [from_user, to_user, 7582601826]:
         try:
-            await _.send_message(from_user, f"{query.from_user.mention} is trying to open your whisper.")
+            await _.send_message(from_user, f"{query.from_user.mention} is trying to open your love latter.")
         except Unauthorized:
             pass
         
@@ -103,15 +103,15 @@ async def whispes_cb(_, query):
     
     if len(data) > 3 and data[3] == "one":
         if user_id == to_user:
-            await query.edit_message_text("📬 Whisper has been read!\n\nPress the button below to send a whisper!", reply_markup=SWITCH)
+            await query.edit_message_text("📬 a love letter has been read!\n\nPress the button below to send a love latter!", reply_markup=SWITCH)
 
 
 async def in_help():
     answers = [
         InlineQueryResultArticle(
-            title="💒 Whisper",
-            description=f"@Itz_SapnaMusicbot [USERNAME | ID] [TEXT]",
-            input_message_content=InputTextMessageContent(f"**📍Usage:**\n\n@Itz_SapnaMusicbot (Target Username or ID) (Your Message).\n\n**Example:**\n@Itz_SapnaMusicbot @username I Wanna Phuck You"),
+            title="💒 love latter",
+            description=f"@asxqueen_bot [USERNAME | ID] [TEXT]",
+            input_message_content=InputTextMessageContent(f"**📍Usage:**\n\nnaveem (Target Username or ID) (Your Message).\n\n**Example:**\n@naveen_720 miss quee kai acount delete kala kire"),
             thumb_url="https://te.legra.ph/file/3eec679156a393c6a1053.jpg",
             reply_markup=switch_btn
         )
