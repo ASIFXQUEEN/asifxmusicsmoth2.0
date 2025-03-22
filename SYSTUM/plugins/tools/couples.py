@@ -8,17 +8,9 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.enums import *
 
 #BOT FILE NAME
-from SHUKLAMUSIC import app as app
-from SHUKLAMUSIC.mongo.couples_db import _get_image, get_couple
+from SYSTUM import app as app
+from SYSTUM.mongo.couples_db import _get_image, get_couple
 
-POLICE = [
-    [
-        InlineKeyboardButton(
-            text="𓊈𒆜彡[𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 𝗪𝗢𝗥𝗟𝗗 ]彡𒆜𓊉",
-            url=f"https://t.me/MASTIWITHFRIENDSXD",
-        ),
-    ],
-]
 
 
 def dt():
@@ -72,16 +64,16 @@ async def ctest(_, message):
          try:
             p1 = await app.download_media(photo1.big_file_id, file_name="pfp.png")
          except Exception:
-            p1 = "SHUKLAMUSIC/assets/upic.png"
+            p1 = "SYSTUM/assets/upic.png"
          try:
             p2 = await app.download_media(photo2.big_file_id, file_name="pfp1.png")
          except Exception:
-            p2 = "SHUKLAMUSIC/assets/upic.png"
+            p2 = "SYSTUM/assets/upic.png"
             
          img1 = Image.open(f"{p1}")
          img2 = Image.open(f"{p2}")
 
-         img = Image.open("SHUKLAMUSIC/assets/cppic.png")
+         img = Image.open("SYSTUM/assets/cppic.png")
 
          img1 = img1.resize((437,437))
          img2 = img2.resize((437,437))
