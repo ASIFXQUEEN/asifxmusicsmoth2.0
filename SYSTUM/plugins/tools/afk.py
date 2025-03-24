@@ -4,9 +4,6 @@ from pyrogram.enums import MessageEntityType
 from pyrogram import filters
 from pyrogram.types import Message
 from SYSTUM import app
-from SYSTUM.mongo.readable_time import get_readable_time
-from SYSTUM.mongo.afkdb import add_afk, is_afk, remove_afk
-
 
 
 @app.on_message(filters.command(["afk", "brb"], prefixes=["/", "!"]))
