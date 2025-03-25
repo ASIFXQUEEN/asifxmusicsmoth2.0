@@ -1,7 +1,7 @@
 import os
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from SHUKLAMUSIC import app
+from SYSTUM import app
 import requests
 
 
@@ -58,8 +58,8 @@ async def get_link_group(client, message):
                         [
                             [
                                 InlineKeyboardButton(
-                                    "❍ ᴄʀᴇᴀᴛᴇ ʙʏ ˹ sᴛʀᴀɴɢᴇʀ ™˼",
-                                    url=upload_path,
+                                    "❍ ᴄʀᴇᴀᴛᴇ ʙʏ ˹ ASIF ™˼",
+                                    url=t.me/arame9,
                                 )
                             ]
                         ]
