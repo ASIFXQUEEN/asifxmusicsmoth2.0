@@ -59,9 +59,8 @@ async def get_link_group(client, message):
                             [
                                 InlineKeyboardButton(
                                     "❍ ᴄʀᴇᴀᴛᴇ ʙʏ ˹ ASIF ™˼",
-                                    url=t.me/arame9,
-                                )
-                            ]
+                                    url="https://t.me/ashlf903"),
+                           ]
                         ]
                     ),
                 )
