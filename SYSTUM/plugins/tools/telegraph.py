@@ -1,7 +1,7 @@
 import os
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from SHUKLAMUSIC import app
+from SYSTUM import app
 import requests
 
 
@@ -51,20 +51,8 @@ async def get_link_group(client, message):
 
             success, upload_path = upload_file(local_path)
 
-            if success:
-                await text.edit_text(
-                    f"❍ | [ᴛᴀᴘ ᴛʜᴇ ʟɪɴᴋ]({upload_path})",
-                    reply_markup=InlineKeyboardMarkup(
-                        [
-                            [
-                                InlineKeyboardButton(
-                                    "❍ ᴄʀᴇᴀᴛᴇ ʙʏ ˹ sᴛʀᴀɴɢᴇʀ ™˼",
-                                    url=upload_path,
-                                )
-                            ]
-                        ]
-                    ),
-                )
+
+            
             else:
                 await text.edit_text(
                     f"❍ ᴀɴ ᴇʀʀᴏʀ ᴏᴄᴄᴜʀʀᴇᴅ ᴡʜɪʟᴇ ᴜᴘʟᴏᴀᴅɪɴɢ ʏᴏᴜʀ ғɪʟᴇ\n{upload_path}"
